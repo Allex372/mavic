@@ -4,7 +4,7 @@ import Post from "./Post";
 
 class AllPosts extends Component {
 
-    state = {posts:[]}
+    state = {posts:[],}
 
     PostService = new PostService();
 

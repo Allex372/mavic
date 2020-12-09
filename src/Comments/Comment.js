@@ -7,15 +7,15 @@ import {
     withRouter
 } from "react-router-dom";
 
-class User extends Component {
+class Comment extends Component {
     render() {
-        let {match:{url},item} = this.props;
+        let {item, match:{url}}= this.props
         return (
             <div>
-                {item.id}-{item.name}-<Link to={`${url}/${item.id}`}>info</Link>
+                {item.postId}-{item.email}-<Link to={`${url}/${item.id}`}>open</Link>
             </div>
         );
     }
 }
 
-export default withRouter(User);
+export default withRouter(Comment);

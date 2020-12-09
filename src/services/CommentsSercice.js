@@ -1,13 +1,12 @@
-export class PostService {
+export class CommentsSercice{
 
-    url = 'https://jsonplaceholder.typicode.com/posts'
+    url = 'https://jsonplaceholder.typicode.com/comments'
 
-    async getAllPosts() {
+    async getAllComments(){
         return await fetch(this.url)
             .then(value => value.json())
             .then(value => {
                 return value
             })
     }
-
 }

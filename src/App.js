@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import AllPosts from "./Posts/AllPosts";
 import AllUsers from "./Users/AllUsers";
+import AllComments from "./Comments/AllComments";
 
 import {
     BrowserRouter as Router,
@@ -26,13 +27,27 @@ class App extends Component {
                         </Link>
                     </div>
 
+                    <div>
+                        <Link to={'/comments'}>
+                            comments
+                        </Link>
+                    </div>
+
                     <Switch>
+
                         <Route path={'/posts'} render={()=>{
                             return <AllPosts/>
                         }}/>
+
                         <Route path={'/customers'} render={()=>{
                         return <AllUsers/>
                         }}/>
+
+                        <Route path={'/comments'} render={()=>{
+                            return <AllComments/>
+                        }}>
+                        </Route>
+
                     </Switch>
 
                 </div>
