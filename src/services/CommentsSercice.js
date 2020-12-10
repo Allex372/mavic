@@ -5,8 +5,10 @@ export class CommentsSercice{
     async getAllComments(){
         return await fetch(this.url)
             .then(value => value.json())
-            .then(value => {
-                return value
-            })
+
+    }
+    async comment(id){
+        return await fetch(this.url+`/${id}`)
+            .then(value => value.json())
     }
 }

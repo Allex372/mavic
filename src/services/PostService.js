@@ -5,9 +5,11 @@ export class PostService {
     async getAllPosts() {
         return await fetch(this.url)
             .then(value => value.json())
-            .then(value => {
-                return value
-            })
+    }
+
+    async getPostById(id){
+        return await  fetch(this.url + `/${id}`)
+            .then(value => value.json())
     }
 
 }

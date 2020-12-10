@@ -12,7 +12,7 @@ class Comment extends Component {
         let {item, match:{url}}= this.props
         return (
             <div>
-                {item.postId}-{item.email}-<Link to={`${url}/${item.id}`}>open</Link>
+                {item.postId}-{item.email}-<Link to={url + '/' + item.id}>open</Link>
             </div>
         );
     }

@@ -12,7 +12,7 @@ class Post extends Component {
         let {item, match:{url}} = this.props
         return (
             <div>
-                {item.userId}-{item.id}-{item.title}-<Link to={`${url}/${item.id}`}>open</Link>
+                {item.userId}-{item.id}-{item.title}-<Link to={url+'/'+item.id}>open</Link>
             </div>
         );
     }

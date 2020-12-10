@@ -12,7 +12,7 @@ class User extends Component {
         let {match:{url},item} = this.props;
         return (
             <div>
-                {item.id}-{item.name}-<Link to={`${url}/${item.id}`}>info</Link>
+                {item.id}-{item.name}-<Link to={url + '/'+ item.id}>info</Link>
             </div>
         );
     }
