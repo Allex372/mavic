@@ -2,20 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c41233d-46d3-4a90-a6c3-aae5c02d9ee0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Comments/FullComment.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Posts/FullPost.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Users/FullUser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Header/HomaPage/HomaPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Header/HomaPage/Slider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Header/HomaPage/homeStyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Header/Info/InfoPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Header/Info/info.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Header/header.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Header/header.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Comments/AllComments.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Comments/AllComments.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Comments/Comment.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Comments/Comment.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Posts/AllPosts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Posts/AllPosts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Posts/Post.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Posts/Post.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Users/AllUsers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Users/AllUsers.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Users/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Users/User.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/CommentsSercice.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/CommentsSercice.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/services/PostService.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/PostService.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/UserService.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/UserService.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +28,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="CSS File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -41,7 +45,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../react_practice2" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -61,7 +66,10 @@
       <workItem from="1607510274932" duration="2308000" />
       <workItem from="1607513307749" duration="619000" />
       <workItem from="1607543853979" duration="4732000" />
-      <workItem from="1607582578217" duration="6786000" />
+      <workItem from="1607582578217" duration="9250000" />
+      <workItem from="1607622977610" duration="5691000" />
+      <workItem from="1607634471886" duration="703000" />
+      <workItem from="1607676344895" duration="8484000" />
     </task>
     <task id="LOCAL-00001" summary="sdaf">
       <created>1607450827103</created>
@@ -84,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607512432301</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="hw5">
+      <created>1607591107996</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1607591107996</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -92,6 +107,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="sdaf" />
-    <option name="LAST_COMMIT_MESSAGE" value="sdaf" />
+    <MESSAGE value="hw5" />
+    <option name="LAST_COMMIT_MESSAGE" value="hw5" />
   </component>
 </project>

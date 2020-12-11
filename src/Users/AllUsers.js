@@ -1,13 +1,11 @@
 import React, {Component} from 'react';
 import User from "./User";
 import {UserService} from "../services/UserService";
-import * as url from "url";
 import FullUser from "./FullUser";
 import {
     BrowserRouter as Router,
     Switch,
     Route,
-    Link,
     withRouter
 } from "react-router-dom";
 

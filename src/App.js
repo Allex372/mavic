@@ -1,58 +1,35 @@
 import React, {Component} from 'react';
+import {Switch, Route,} from "react-router";
+
+import Header from "./Header/header";
 import AllPosts from "./Posts/AllPosts";
 import AllUsers from "./Users/AllUsers";
 import AllComments from "./Comments/AllComments";
-
-import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
-    Link
-} from "react-router-dom";
+import './App.css'
+import HomaPage from "./Header/HomaPage/HomaPage";
+import InfoPage from "./Header/Info/InfoPage";
 
 class App extends Component {
     render() {
         return (
-            <Router>
-                <div>
-                    <div>
-                        <Link to={'/posts'}>
-                            posts
-                        </Link>
-                    </div>
+            <div>
+                <Switch>
+                    <Header/>
+                </Switch>
 
-                    <div>
-                        <Link to={'/customers'}>
-                            users
-                        </Link>
-                    </div>
-
-                    <div>
-                        <Link to={'/comments'}>
-                            comments
-                        </Link>
-                    </div>
-
+                <main>
                     <Switch>
 
-                        <Route path={'/posts'} render={()=>{
-                            return <AllPosts/>
-                        }}/>
-
-                        <Route path={'/customers'} render={()=>{
-                        return <AllUsers/>
-                        }}/>
-
-                        <Route path={'/comments'} render={()=>{
-                            return <AllComments/>
-                        }}>
-                        </Route>
+                        <Route path={'/posts'} component={AllPosts}/>
+                        <Route path={'/customers'} component={AllUsers}/>
+                        <Route path={'/comments'} component={AllComments} />
+                        <Route path='/info' render={() => <InfoPage/>} />
+                        <Route path='/' render={() => <HomaPage/>} />
 
                     </Switch>
+                </main>
 
-                </div>
-            </Router>
-        );
+            </div>);
     }
 }
 

@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Langar&display=swap');
+
+.header{
+    width: 1920px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    background-color: aquamarine;
+}
+.header-text-style{
+    font-size: 25px;
+    font-family: 'Langar', cursive;
+    text-underline: none;
+}

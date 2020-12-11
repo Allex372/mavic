@@ -12,4 +12,9 @@ export class PostService {
             .then(value => value.json())
     }
 
+    getPostForUser(userId){
+        return fetch(this.url+`?userId=${userId}`)
+            .then(value => value.json())
+    }
+
 }
