@@ -21,21 +21,11 @@ class AllUsers extends Component {
     }
     render() {
         let {users}= this.state
-        let {match:{url}} = this.props;
         return (
             <div>
                 {
                     users.map(value => <User item={value} key={value.id}/>)
                 }
-                <hr/>
-                    <Switch>
-                        <Route path={url+'/:id'} render={(props)=>{
-                            let {match:{params:{id}}} = props;
-                            return <FullUser id={id} key={id}/>
-                        }}>
-                        </Route>
-                    </Switch>
-                <hr/>
             </div>
         );
     }

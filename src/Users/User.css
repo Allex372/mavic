@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+.id-style{
+    font-size: 30px;
+    font-family: 'Lobster', cursive;
+    letter-spacing: 5px;
+    color: brown;
+}
+.item-style{
+    font-size: 35px;
+    font-family: 'Lobster', cursive;
+    letter-spacing: 5px;
+
+}
+.link{
+    text-decoration: underline;
+    font-family: 'Playfair Display', serif;
+    color: brown;
+    font-size: 30px;
+    letter-spacing: 4px;
+}
+
+.btn {
+    margin: 0 20px;
+    padding: 15px 34px;
+    overflow: hidden;
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: white;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-width: 0;
+    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    outline: none;
+    cursor: pointer;
+}
+.btn {
+    background: linear-gradient(90deg, #801304, #f56d6d);
+}
+
+.btn:before,
+.btn:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    left: -110%;
+    top: 0;
+    opacity: 0.1;
+    background: black;
+    transform: skewX(25deg);
+    transition: .5s ease;
+}
+.btn:hover:before {
+    left: -10%;
+    transition: .3s ease;
+}
+.btn:hover:after {
+    left: -20%;
+}

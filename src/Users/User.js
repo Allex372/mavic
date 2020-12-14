@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import {PostService} from "../services/PostService";
+import './User.css'
 
 import {
     Link,
@@ -24,15 +25,15 @@ class User extends Component {
 
         return (
             <div>
-                {item.id}-{item.name}-<Link to={url + '/'+ item.id}>info</Link>
-                <button onClick={() => this.setPost(item.id)}>Check Posts</button>
-
+                <span className={'id-style'}>{item.id}:</span> <span className={'item-style'}>{item.name}-</span>  <Link to={url + '/'+ item.id}><span className={'link'}>info</span></Link>-
+                <button className={'btn'} onClick={() => this.setPost(item.id)}><span className={'text'}>Check Posts</span></button>
                 <div>
                     {
-                        posts && posts.map((post) => <h3>{post.title}</h3>)
+                        posts && posts.map((post) => <h5>{post.title}</h5>)
                     }
                 </div>
             </div>
+
         );
     }
 }

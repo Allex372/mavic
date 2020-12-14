@@ -2,23 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c41233d-46d3-4a90-a6c3-aae5c02d9ee0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Header/HomaPage/HomaPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Header/HomaPage/Slider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Header/HomaPage/homeStyle.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Header/Info/InfoPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Header/Info/info.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Header/header.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Header/header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pages/About.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pages/about.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Users/FullUser.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Users/User.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Header/HomaPage/HomaPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Header/HomaPage/HomaPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Header/HomaPage/homeStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Header/HomaPage/homeStyle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Header/Info/InfoPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Header/Info/InfoPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Header/Info/info.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Header/Info/info.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Header/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Header/header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Header/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Header/header.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Users/AllUsers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Users/AllUsers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Users/FullUser.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Users/FullUser.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Users/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Users/User.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/PostService.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/PostService.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,8 +27,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -53,6 +52,16 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RunManager">
+    <configuration name="App.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/App.js" working-dir="$PROJECT_DIR$/src">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.App.js" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -70,6 +79,9 @@
       <workItem from="1607622977610" duration="5691000" />
       <workItem from="1607634471886" duration="703000" />
       <workItem from="1607676344895" duration="8484000" />
+      <workItem from="1607700390870" duration="694000" />
+      <workItem from="1607854848947" duration="18970000" />
+      <workItem from="1607977272397" duration="4458000" />
     </task>
     <task id="LOCAL-00001" summary="sdaf">
       <created>1607450827103</created>
@@ -99,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607591107996</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="hw5">
+      <created>1607700494445</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1607700494445</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -1,19 +1,2 @@
 @import url('https://fonts.googleapis.com/css2?family=Langar&display=swap');
 
-
-.background-style{
-    display: flex;
-    justify-content: center;
-    background-color: aqua;
-    height: 919px;
-}
-.welcome{
-    width: 100%;
-    margin-top: 250px ;
-    text-align: center;
-}
-
-.p-style{
-    font-size: 100px;
-    font-family: 'Langar', cursive;
-}

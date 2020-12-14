@@ -8,6 +8,7 @@ import AllComments from "./Comments/AllComments";
 import './App.css'
 import HomaPage from "./Header/HomaPage/HomaPage";
 import InfoPage from "./Header/Info/InfoPage";
+import About from "./Pages/About";
 
 class App extends Component {
     render() {

@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+.FullInfoAbUser{
+    font-size: 25px;
+
+}
+.heading{
+    font-family: 'Playfair Display', serif;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    text-decoration: underline;
+}
+.info{
+    font-family: 'Lobster', cursive;
+    letter-spacing: 5px;
+}
