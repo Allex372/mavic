@@ -8,7 +8,8 @@ import {
     BrowserRouter as Router,
     Switch,
     Route,
-    Link
+    Link,
+    withRouter
 } from "react-router-dom";
 
 class Header extends Component {
@@ -110,4 +111,4 @@ class Header extends Component {
     }
 }
 
-export default Header;
+export default withRouter(Header);

@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import {NavLink} from "react-router-dom";
+import './about.css'
 
 class About extends Component {
     render() {

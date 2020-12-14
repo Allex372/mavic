@@ -4,8 +4,8 @@
     <list default="true" id="5c41233d-46d3-4a90-a6c3-aae5c02d9ee0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Header/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Header/header.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Pages/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/About.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/about.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/about.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +21,12 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1lMr3BCFYz3pYD8uuLBfJFHjMar" />
@@ -69,7 +75,7 @@
       <workItem from="1607676344895" duration="8484000" />
       <workItem from="1607700390870" duration="694000" />
       <workItem from="1607854848947" duration="18970000" />
-      <workItem from="1607977272397" duration="5740000" />
+      <workItem from="1607977272397" duration="6748000" />
     </task>
     <task id="LOCAL-00001" summary="sdaf">
       <created>1607450827103</created>
@@ -113,7 +119,21 @@
       <option name="project" value="LOCAL" />
       <updated>1607982302144</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="hw5">
+      <created>1607983844483</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1607983844483</updated>
+    </task>
+    <task id="LOCAL-00008" summary="hw5">
+      <created>1607983928115</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1607983928115</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
