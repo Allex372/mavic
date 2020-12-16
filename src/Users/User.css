@@ -21,7 +21,7 @@
     letter-spacing: 4px;
 }
 
-.btn {
+.btn-check-post {
     margin: 0 20px;
     padding: 15px 34px;
     overflow: hidden;
@@ -35,12 +35,12 @@
     outline: none;
     cursor: pointer;
 }
-.btn {
+.btn-check-post {
     background: linear-gradient(90deg, #801304, #f56d6d);
 }
 
-.btn:before,
-.btn:after {
+.btn-check-post:before,
+.btn-check-post:after {
     content: "";
     position: absolute;
     z-index: -1;
@@ -53,10 +53,10 @@
     transform: skewX(25deg);
     transition: .5s ease;
 }
-.btn:hover:before {
+.btn-check-post:hover:before {
     left: -10%;
     transition: .3s ease;
 }
-.btn:hover:after {
+.btn-check-post:hover:after {
     left: -20%;
 }

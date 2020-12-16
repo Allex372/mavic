@@ -26,7 +26,7 @@ class User extends Component {
         return (
             <div>
                 <span className={'id-style'}>{item.id}:</span> <span className={'item-style'}>{item.name}-</span>  <Link to={url + '/'+ item.id}><span className={'link'}>info</span></Link>-
-                <button className={'btn'} onClick={() => this.setPost(item.id)}><span className={'text'}>Check Posts</span></button>
+                {/*<button className={'btn-check-post'} onClick={() => this.setPost(item.id)}><span className={'text'}>Check Posts</span></button>*/}
                 <div>
                     {
                         posts && posts.map((post) => <h5>{post.title}</h5>)

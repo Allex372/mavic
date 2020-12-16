@@ -11,11 +11,18 @@ import {
     Link,
     withRouter
 } from "react-router-dom";
+import App from "../App";
+import InfoPage from "./Info/InfoPage";
+import Advantages from "../Pages/Advantages";
+import Сharacteristic from "../Pages/Сharacteristic"
+import Questions from "../Pages/Questions";
+import Contact from "../Pages/Contact";
+import FullUser from "../Users/FullUser";
 
 class Header extends Component {
     render() {
         return (
-
+            <Router>
             <div className={'main'}>
 
                 <header className={'header'}>
@@ -23,9 +30,11 @@ class Header extends Component {
                     <div className={'top-left'}>
 
                         <div className={'pic'}></div>
+                        <NavLink to={'/home'}>
                             <div className={'header-text-style'}>
                                 MAVIC 2 PRO
                             </div>
+                        </NavLink>
                     </div>
 
                     <div className={'top-center'}>
@@ -37,28 +46,28 @@ class Header extends Component {
 
 
                         <div className={'header-text-style'}>
-                            <NavLink to='/info'>
+                            <NavLink to='/advantages'>
                                 <div className={'header-text-style'}>
                                     ПРЕИМУЩЕСТВА
                                 </div>
                             </NavLink>
                         </div>
                         <div className={'header-text-style'}>
-                            <NavLink to='/'>
+                            <NavLink to='/characteristic'>
                                 <div className={'header-text-style'}>
                                     ХАРАКТЕРИСТИКИ
                                 </div>
                             </NavLink>
                         </div>
                         <div className={'header-text-style'}>
-                            <NavLink to='/'>
+                            <NavLink to='/questions'>
                                 <div className={'header-text-style'}>
                                     ВОПРОСЫ
                                 </div>
                             </NavLink>
                         </div>
                         <div className={'header-text-style'}>
-                            <NavLink to='/'>
+                            <NavLink to='/contact'>
                                 <div className={'header-text-style'}>
                                     КОНТАКТЫ
                                 </div>
@@ -68,7 +77,7 @@ class Header extends Component {
 
                     <div className={'top-right'}>
                         <button className={'btn-top'}>
-                            <div className={'header-text-style'}>
+                            <div className={'btn-top-text'}>
                             Купить
                             </div>
                         </button>
@@ -78,6 +87,13 @@ class Header extends Component {
                                 </div>
                             </NavLink>
                         </div>
+                    <div className={'header-text-style'}>
+                        <NavLink to='/hw'>
+                            <div className={'header-text-style'}>
+                                HOME WORK
+                            </div>
+                        </NavLink>
+                    </div>
 
                 </header>
 
@@ -101,12 +117,34 @@ class Header extends Component {
                 </div>
 
 
-                <Switch>
-                    <Route path={'/about'} component={<About/>}/>
-                </Switch>
+
             </div>
 
-
+                <Switch>
+                    <Route path={'/about'} render={()=><About/>}/>
+                </Switch>
+                <Switch>
+                    <Route path={'/'} render={()=><HomaPage/>}/>
+                </Switch>
+                <Switch>
+                    <Route path={'/info'} render={()=><InfoPage/>}/>
+                </Switch>
+                <Switch>
+                    <Route path={'/advantages'} render={()=><Advantages/>}/>
+                </Switch>
+                <Switch>
+                <Route path={'/characteristic'} render={()=><Сharacteristic/>}/>
+                </Switch>
+                <Switch>
+                    <Route path={'/questions'} render={()=><Questions/>}/>
+                </Switch>
+                <Switch>
+                    <Route path={'/contact'} render={()=><Contact/>}/>
+                </Switch>
+                <Switch>
+                    <Route path={'/hw'} render={()=><InfoPage/>}/>
+                </Switch>
+            </Router>
         );
     }
 }

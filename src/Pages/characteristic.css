@@ -1,0 +1,122 @@
+.main-characteristic{
+    background-image: url(../img/fog-36225191.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 980px;
+
+}
+.title{
+    width: 321px;
+    height: 53px;
+    padding-left: 185px;
+    padding-top: 150px;
+
+    /* h2 */
+
+    font-family: SF Pro Display sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 44px;
+    line-height: 53px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}
+.main-center{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 80%;
+    height: 400px;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 40%;
+}
+.down{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 40%;
+}
+.big-letters{
+    font-family: Ubuntu sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 28px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}
+.small-letters{
+    margin-top: 10px;
+    width: 280px;
+    height: 98px;
+
+    letter-spacing: 2px;
+    font-family: Ubuntu sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 130%;
+    /* or 19px */
+
+
+    color: #FFFFFF;
+}
+
+.copter-img{
+    position: absolute;
+    width: 667.81px;
+    height: 522.92px;
+    left: 585px;
+    top: 1327px;
+    background-image: url(../img/dron.png);
+
+    background-repeat: no-repeat;
+}
+#arrow1{
+    background-image:url(../img/Characteristic/указка1.png);
+    position: absolute;
+    width: 220.9px;
+    height: 106px;
+    left: 421px;
+    top: 1299px;
+
+    transform: rotate(-180deg);
+}
+#arrow2{
+    position: absolute;
+    width: 270px;
+    height: 100px;
+    left: 1141px;
+    top: 1293px;
+
+    background-image: url(../img/Characteristic/указка2.png);
+}
+#arrow3{
+    position: absolute;
+    width: 246px;
+    height: 90px;
+    left: 424px;
+    top: 1490px;
+
+    background-image: url(../img/Characteristic/указка3.png);
+}
+#arrow4{
+    position: absolute;
+    width: 120px;
+    height: 89px;
+    left: 1288px;
+    top: 1468px;
+
+    background-image: url(../img/Characteristic/указка4.png);
+}

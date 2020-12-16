@@ -1,78 +1,45 @@
 import React, {Component} from 'react';
 import {NavLink} from "react-router-dom";
 import './about.css'
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+    Link
+} from "react-router-dom";
+
 
 class About extends Component {
     render() {
         return (
+            <div>
+                <div className={'main-about'}>
+                    <p className={'big-letter'}>Что такое Mavic 2 Pro?</p>
 
-                <div className={'main'}>
+                    <div className={'text'}>
+                        <p className={'small-letter'}>Дрон Mavic 2 Pro - это инженерное чудо, идеальное для аэросъемки.
+                            Дрон обладает всеми лучшими технологиями DJI, он преобразит мир аэросъемки.</p>
+                        <p className={'small-letter'}>Mavic 2 Pro оснащен совершенно новой камерой Hasselblad L1D-20c.
+                            Камера L1D-20c работает по уникальной технологии Hasselblad Natural Colour Solution (HNCS)5,
+                            позволяющей пользователям делать великолепные снимки с воздуха с разрешением в 20
+                            мегапикселей и потрясающими цветами.</p>
+                    </div>
 
-                    <header className={'header'}>
 
-                        <div className={'top-left'}>
+                        <p className={'bottom-Text'}>Лучшая беспилотная технология аэросъемки</p>
+                        <div className={'rectangel'}></div>
+                        <div className={'img'}></div>
+                        <div className={'errows'}>
+                            <div className={'errow-right'}></div>
+                            <div className={'errow-left'}></div>
 
-                            <div className={'pic'}></div>
-                            <div className={'header-text-style'}>
-                                MAVIC 2 PRO
-                            </div>
                         </div>
-
-                        <div className={'top-center'}>
-                            <NavLink to={'/about'}>
-                                <div className={'header-text-style'}>
-                                    О ДРОНЕ
-                                </div>
-                            </NavLink>
-
-
-                            <div className={'header-text-style'}>
-                                <NavLink to='/info'>
-                                    <div className={'header-text-style'}>
-                                        ПРЕИМУЩЕСТВА
-                                    </div>
-                                </NavLink>
-                            </div>
-                            <div className={'header-text-style'}>
-                                <NavLink to='/'>
-                                    <div className={'header-text-style'}>
-                                        ХАРАКТЕРИСТИКИ
-                                    </div>
-                                </NavLink>
-                            </div>
-                            <div className={'header-text-style'}>
-                                <NavLink to='/'>
-                                    <div className={'header-text-style'}>
-                                        ВОПРОСЫ
-                                    </div>
-                                </NavLink>
-                            </div>
-                            <div className={'header-text-style'}>
-                                <NavLink to='/'>
-                                    <div className={'header-text-style'}>
-                                        КОНТАКТЫ
-                                    </div>
-                                </NavLink>
-                            </div>
-                        </div>
-
-                        <div className={'top-right'}>
-                            <button className={'btn-top'}>
-                                <div className={'header-text-style'}>
-                                    Купить
-                                </div>
-                            </button>
-                            <NavLink to='/'>
-                                <div className={'header-text-style'}>
-                                    0717171711
-                                </div>
-                            </NavLink>
-                        </div>
-
-                    </header>
 
 
                 </div>
+
+            </div>
+
         );
     }
 }

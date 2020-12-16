@@ -2,10 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c41233d-46d3-4a90-a6c3-aae5c02d9ee0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Pages/Advantages.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pages/Contact.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pages/Questions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pages/advantages.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pages/characteristic.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pages/contact.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pages/questions.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pages/Сharacteristic.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Header/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Header/header.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Header/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Header/header.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Pages/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/About.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/about.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/about.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Users/User.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Users/User.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Users/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Users/User.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +87,9 @@
       <workItem from="1607676344895" duration="8484000" />
       <workItem from="1607700390870" duration="694000" />
       <workItem from="1607854848947" duration="18970000" />
-      <workItem from="1607977272397" duration="6748000" />
+      <workItem from="1607977272397" duration="7658000" />
+      <workItem from="1608023231546" duration="13954000" />
+      <workItem from="1608101436032" duration="16565000" />
     </task>
     <task id="LOCAL-00001" summary="sdaf">
       <created>1607450827103</created>
@@ -133,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607983928115</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="hw5">
+      <created>1607985464237</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1607985464237</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

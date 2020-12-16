@@ -1,0 +1,184 @@
+.main-contact{
+    background-image: url(../img/fog-36225191.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 970px;
+}
+
+.p-style{
+
+    padding: 150px 0 0 280px;
+
+    /* h2 */
+
+    font-family: SF Pro Display sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 44px;
+    line-height: 53px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}
+.main-flex-contact{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 0 auto;
+
+    width: 70%;
+    height: 400px;
+}
+.flex-left{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100%;
+}
+.flex-left-info{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    width: 100%;
+    height: 30%;
+}
+.flex-center{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+    height: 100%;
+}
+
+.flex-center-inside{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+
+}
+.flex-right{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+
+}
+
+.facebook-img{
+    background-image: url(../img/фейсбук.png);
+    height: 40px;
+    width: 40px;
+    background-repeat: no-repeat;
+
+}
+.youtube-img{
+    background-image: url(../img/ютуб.png);
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+
+}
+.instagram-img{
+    background-image: url(../img/instagram2.png);
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+}
+.instagram-img:hover{
+    background-color: #FFFFFF;
+}
+
+.title-letter{
+    font-family: Ubuntu sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 24px;
+    /* identical to box height */
+
+    padding-bottom: 10px;
+    color: #FFFFFF;
+}
+
+.classic-letter{
+    font-family: Ubuntu sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 130%;
+    /* identical to box height, or 19px */
+
+    cursor: pointer;
+    padding-bottom: 10px;
+    color: #FFFFFF;
+}
+.in1{
+    width: 280px;
+    height: 46px;
+    left: 420px;
+    top: 329px;
+
+    color: #FFFFFF;
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 0.95;
+}
+.in2{
+    width: 280px;
+    height: 46px;
+    left: 420px;
+    top: 329px;
+    margin-left: 5px;
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 0.95;
+    color: #FFFFFF;
+
+}
+.in3{
+    width: 570px;
+    height: 144px;
+    left: 420px;
+    top: 385px;
+    color: #FFFFFF;
+
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 0.95;
+}
+
+.btn-send{
+    width: 120px;
+    height: 34px;
+    left: 420px;
+    top: 549px;
+
+    /* Brand - brighter */
+
+
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 2px;
+    background: transparent;
+}
+.btn-letter{
+    font-family: Ubuntu sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height */
+
+    letter-spacing: 0.03em;
+
+    color: #FFFFFF;
+
+    border-radius: 2px;
+}
+.btn-letter:hover{
+    color: black;
+}
+.btn-send:hover{
+    background-color: #FFFFFF;
+}
