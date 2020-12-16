@@ -9,6 +9,11 @@ import './App.css'
 import HomaPage from "./Header/HomaPage/HomaPage";
 import InfoPage from "./Header/Info/InfoPage";
 import About from "./Pages/About";
+import Advantages from "./Pages/Advantages";
+import Сharacteristic from "./Pages/Сharacteristic";
+import Questions from "./Pages/Questions";
+import Contact from "./Pages/Contact";
+import Navigation from "./Navigation/Navigation";
 
 class App extends Component {
     render() {
@@ -19,15 +24,26 @@ class App extends Component {
                 </Switch>
 
                 <main>
+
                     <Switch>
+                        <Route path={'/about'} render={() => <About/>}/>
 
-                        <Route path={'/posts'} component={AllPosts}/>
-                        <Route path={'/customers'} component={AllUsers}/>
-                        <Route path={'/comments'} component={AllComments} />
-                        <Route path='/info' render={() => <InfoPage/>} />
-                        <Route path='/' render={() => <HomaPage/>} />
+                        <Route path={'/'} render={() => <HomaPage/>}/>
 
+                        <Route path={'/info'} render={() => <InfoPage/>}/>
+
+                        <Route path={'/advantages'} render={() => <Advantages/>}/>
+
+                        <Route path={'/characteristic'} render={() => <Сharacteristic/>}/>
+
+                        <Route path={'/questions'} render={() => <Questions/>}/>
+
+                        <Route path={'/contact'} render={() => <Contact/>}/>
+
+                        <Route path={'/hw'} render={() => <InfoPage/>}/>
                     </Switch>
+
+
                 </main>
 
             </div>);

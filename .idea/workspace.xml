@@ -2,22 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c41233d-46d3-4a90-a6c3-aae5c02d9ee0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Pages/Advantages.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pages/Contact.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pages/Questions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pages/advantages.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pages/characteristic.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pages/contact.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pages/questions.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pages/Сharacteristic.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Navigation/Navigation.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Header/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Header/header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Header/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Header/header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/About.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/about.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/about.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Users/User.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Users/User.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Users/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Users/User.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -53,8 +42,11 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../react_practice2" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.eslint" value="" />
+    <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -89,7 +81,7 @@
       <workItem from="1607854848947" duration="18970000" />
       <workItem from="1607977272397" duration="7658000" />
       <workItem from="1608023231546" duration="13954000" />
-      <workItem from="1608101436032" duration="16565000" />
+      <workItem from="1608101436032" duration="19190000" />
     </task>
     <task id="LOCAL-00001" summary="sdaf">
       <created>1607450827103</created>
@@ -154,7 +146,21 @@
       <option name="project" value="LOCAL" />
       <updated>1607985464237</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="і">
+      <created>1608119686869</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1608119686869</updated>
+    </task>
+    <task id="LOCAL-00011" summary="і">
+      <created>1608119771656</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1608119771656</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,6 +169,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="sdaf" />
     <MESSAGE value="hw5" />
-    <option name="LAST_COMMIT_MESSAGE" value="hw5" />
+    <MESSAGE value="і" />
+    <option name="LAST_COMMIT_MESSAGE" value="і" />
   </component>
 </project>
