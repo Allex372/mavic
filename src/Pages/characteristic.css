@@ -3,7 +3,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    height: 980px;
+    height: 969px;
 
 }
 .title{
@@ -78,7 +78,7 @@
     width: 667.81px;
     height: 522.92px;
     left: 585px;
-    top: 1327px;
+    top: 327px;
     background-image: url(../img/dron.png);
 
     background-repeat: no-repeat;
@@ -89,7 +89,7 @@
     width: 220.9px;
     height: 106px;
     left: 421px;
-    top: 1299px;
+    top: 299px;
 
     transform: rotate(-180deg);
 }
@@ -98,7 +98,7 @@
     width: 270px;
     height: 100px;
     left: 1141px;
-    top: 1293px;
+    top: 293px;
 
     background-image: url(../img/Characteristic/указка2.png);
 }
@@ -107,7 +107,7 @@
     width: 246px;
     height: 90px;
     left: 424px;
-    top: 1490px;
+    top: 490px;
 
     background-image: url(../img/Characteristic/указка3.png);
 }
@@ -116,7 +116,7 @@
     width: 120px;
     height: 89px;
     left: 1288px;
-    top: 1468px;
+    top: 468px;
 
     background-image: url(../img/Characteristic/указка4.png);
 }

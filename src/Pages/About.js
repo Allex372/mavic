@@ -14,8 +14,8 @@ class About extends Component {
         return (
             <div>
                 <div className={'main-about'}>
+                    <div className={'about-div-left'}>
                     <p className={'big-letter'}>Что такое Mavic 2 Pro?</p>
-
                     <div className={'text'}>
                         <p className={'small-letter'}>Дрон Mavic 2 Pro - это инженерное чудо, идеальное для аэросъемки.
                             Дрон обладает всеми лучшими технологиями DJI, он преобразит мир аэросъемки.</p>
@@ -24,16 +24,16 @@ class About extends Component {
                             позволяющей пользователям делать великолепные снимки с воздуха с разрешением в 20
                             мегапикселей и потрясающими цветами.</p>
                     </div>
-
-
+                    </div>
+                    <div className={'information'}>
                         <p className={'bottom-Text'}>Лучшая беспилотная технология аэросъемки</p>
                         <div className={'rectangel'}></div>
                         <div className={'img'}></div>
                         <div className={'errows'}>
                             <div className={'errow-right'}></div>
                             <div className={'errow-left'}></div>
-
                         </div>
+                    </div>
 
 
                 </div>

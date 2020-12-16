@@ -1,13 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Langar&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
-
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    z-index: 1;
+}
 
 .header{
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-direction: row;
-
+    position: fixed;
+    margin-left: 200px;
 }
 
 .main{
@@ -20,7 +27,7 @@
 
 
 .header-text-style{
-    width: 100px;
+    width: 150px;
     height: 17px;
     left: 397px;
 
@@ -35,28 +42,7 @@
 
     color: #FFFFFF;
 }
-/*.s1{*/
-/*    left: 485px;*/
-/*}*/
-/*.mavic{*/
-/*    position: absolute;*/
-/*    width: 120px;*/
-/*    height: 21px;*/
-/*    left: 129px;*/
-/*    top: 50px;*/
 
-/*    font-family: Ubuntu;*/
-/*    font-style: normal;*/
-/*    font-weight: 500;*/
-/*    font-size: 18px;*/
-/*    line-height: 21px;*/
-/*    !* identical to box height *!*/
-
-/*    letter-spacing: 0.04em;*/
-/*    text-transform: uppercase;*/
-
-/*    color: #FFFFFF;*/
-/*}*/
 .pic{
     background-image: url(../img/dji_logo_gray1.png);
     background-repeat: no-repeat;
@@ -67,14 +53,14 @@
 }
 .top-left{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    width: 250px;
+    width: 400px;
     margin-top: 50px;
 }
 .top-center{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     width: 900px;
     margin-top: 50px;
@@ -84,7 +70,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 250px;
+    width: 300px;
     margin-top: 50px;
 }
 
@@ -123,7 +109,7 @@
 }
 
 .center{
-    margin-top: 200px;
+    padding-top: 300px;
     /*margin-left: 30%;*/
     display: flex;
     justify-content: space-between;
@@ -144,7 +130,7 @@
     width: 500px;
     height: 115px;
     left: 437px;
-    top: 218px;
+    /*top: 218px;*/
 
     /* h1 */
 
@@ -186,7 +172,7 @@
     flex-direction: column;
     width: 250px;
     height: 120px;
-    margin: 150px auto;
+    margin: 100px auto;
 }
 
 .bottom-img{

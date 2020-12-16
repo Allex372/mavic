@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Langar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*.header{*/
+/*    display: flex;*/
+/*    justify-content: space-around;*/
+/*    align-items: center;*/
+/*    flex-direction: row;*/
+/*    position: fixed;*/
+/*    margin-left: 200px;*/
+/*}*/
+
+/*.main{*/
+/*    background-image: url(../img/background.png);*/
+/*    width: 100%;*/
+/*    height: 969px;*/
+/*    background-size: cover;*/
+/*    background-repeat: no-repeat;*/
+/*}*/
+
+
+/*.header-text-style{*/
+/*    width: 150px;*/
+/*    height: 17px;*/
+/*    left: 397px;*/
+
+/*    !* Menu *!*/
+
+/*    font-family: Ubuntu sans-serif;*/
+/*    font-style: normal;*/
+/*    font-weight: 500;*/
+/*    font-size: 15px;*/
+/*    line-height: 17px;*/
+/*    letter-spacing: 2px;*/
+
+/*    !*color: #FFFFFF;*!*/
+/*}*/
+
+/*.pic{*/
+/*    background-image: url(../img/dji_logo_gray1.png);*/
+/*    background-repeat: no-repeat;*/
+/*    width: 54px;*/
+/*    height: 27px;*/
+/*    left: 64px;*/
+/*    top: 47px;*/
+/*}*/
+/*.top-left{*/
+/*    display: flex;*/
+/*    justify-content: space-around;*/
+/*    align-items: center;*/
+/*    width: 400px;*/
+/*    margin-top: 50px;*/
+/*}*/
+/*.top-center{*/
+/*    display: flex;*/
+/*    justify-content: space-around;*/
+/*    align-items: center;*/
+/*    width: 900px;*/
+/*    margin-top: 50px;*/
+
+/*}*/
+/*.top-right{*/
+/*    display: flex;*/
+/*    justify-content: space-between;*/
+/*    align-items: center;*/
+/*    width: 300px;*/
+/*    margin-top: 50px;*/
+/*}*/
+
+/*.btn-top{*/
+/*    width: 115px;*/
+/*    height: 30px;*/
+/*    left: 1052px;*/
+/*    top: 43px;*/
+
+/*    !* White *!*/
+/*    background: transparent;*/
+/*    border: 1px solid #ffffff;*/
+/*    box-sizing: border-box;*/
+/*    border-radius: 3px;*/
+/*}*/
+/*.btn-top-text {*/
+/*    font-family: Ubuntu sans-serif;*/
+/*    font-style: normal;*/
+/*    font-weight: bold;*/
+/*    font-size: 14px;*/
+/*    line-height: 16px;*/
+/*    !* identical to box height *!*/
+
+/*    letter-spacing: 0.03em;*/
+
+/*    !*color: #FFFFFF;*!*/
+
+/*    border-radius: 2px;*/
+/*}*/
+/*.btn-top-text:hover{*/
+/*    color: black;*/
+
+/*}*/
+/*.btn-top:hover{*/
+/*    background-color: #FFFFFF;*/
+/*}*/
+
+/*.center{*/
+/*    margin-top: 200px;*/
+/*    !*margin-left: 30%;*!*/
+/*    display: flex;*/
+/*    justify-content: space-between;*/
+/*    flex-direction: column;*/
+/*}*/
+
+/*.img-center{*/
+/*    background-image: url(../img/dron.png);*/
+/*    height: 200px;*/
+/*    width: 700px;*/
+/*    margin: 0 auto;*/
+
+/*    background-size: cover;*/
+/*    background-repeat: no-repeat;*/
+/*}*/
+/*.mavic{*/
+/*    margin: 0 auto;*/
+/*    width: 500px;*/
+/*    height: 115px;*/
+/*    left: 437px;*/
+/*    !*top: 218px;*!*/
+
+/*    !* h1 *!*/
+
+/*    font-family: SF Pro Display sans-serif;*/
+/*    font-style: normal;*/
+/*    font-weight: 600;*/
+/*    font-size: 96px;*/
+/*    line-height: 115px;*/
+/*    !* identical to box height *!*/
+
+
+/*    !*color: #FFFFFF;*!*/
+/*}*/
+
+/*.center-text-small{*/
+/*    width: 324px;*/
+/*    height: 51px;*/
+/*    left: 521px;*/
+/*    top: 582px;*/
+/*    margin: 0 auto;*/
+
+
+/*    !* text-Regular *!*/
+
+/*    font-family: Ubuntu sans-serif;*/
+/*    font-style: normal;*/
+/*    font-weight: 300;*/
+/*    font-size: 17px;*/
+/*    line-height: 150%;*/
+/*    !* or 25px *!*/
+
+/*    text-align: center;*/
+
+/*    color: #FFFFFF;*/
+/*}*/
+/*.bottom{*/
+/*    display: flex;*/
+/*    justify-content: space-between;*/
+/*    flex-direction: column;*/
+/*    width: 250px;*/
+/*    height: 120px;*/
+/*    margin: 150px auto;*/
+/*}*/
+
+/*.bottom-img{*/
+/*    display: flex;*/
+/*    justify-content: space-around;*/
+/*}*/
+/*.facebook-img{*/
+/*    background-image: url(../img/фейсбук.png);*/
+/*    height: 40px;*/
+/*    width: 40px;*/
+/*    background-repeat: no-repeat;*/
+
+/*}*/
+/*.youtube-img{*/
+/*    background-image: url(../img/ютуб.png);*/
+/*    height: 40px;*/
+/*    width: 40px;*/
+/*    border-radius: 50%;*/
+/*    background-repeat: no-repeat;*/
+
+/*}*/
+/*.instagram-img{*/
+/*    background-image: url(../img/instagram2.png);*/
+/*    height: 40px;*/
+/*    width: 40px;*/
+/*    border-radius: 50%;*/
+/*    background-repeat: no-repeat;*/
+/*}*/
+/*.instagram-img:hover{*/
+/*    background-color: #FFFFFF;*/
+/*}*/
+
+/*.arrow-img{*/
+/*    margin-left: 110px;*/
+/*    height: 20px;*/
+/*    width: 20px;*/
+/*    background-image: url(../img/arrow.png);*/
+/*    background-repeat: no-repeat;*/
+/*}*/
+
+/*.youtube-img:hover{*/
+/*    background-color: #FFFFFF;*/
+/*}*/
+/*.arrow-img:hover{*/
+/*    background-color: #FFFFFF;*/
+/*}*/
