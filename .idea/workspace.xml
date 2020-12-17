@@ -1,21 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5c41233d-46d3-4a90-a6c3-aae5c02d9ee0" name="Default Changelist" comment="і">
-      <change afterPath="$PROJECT_DIR$/src/Pages/Home.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pages/home.css" afterDir="false" />
+    <list default="true" id="5c41233d-46d3-4a90-a6c3-aae5c02d9ee0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Header/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Header/header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Header/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Header/header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Navigation/Navigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Navigation/Navigation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/About.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/about.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/about.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/advantages.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/advantages.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/characteristic.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/characteristic.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Contact.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Pages/contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/contact.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/questions.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/questions.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +82,8 @@
       <workItem from="1608023231546" duration="13954000" />
       <workItem from="1608101436032" duration="19828000" />
       <workItem from="1608123258713" duration="1153000" />
-      <workItem from="1608135928425" duration="5108000" />
+      <workItem from="1608135928425" duration="5838000" />
+      <workItem from="1608197358490" duration="3097000" />
     </task>
     <task id="LOCAL-00001" summary="sdaf">
       <created>1607450827103</created>
@@ -185,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608123013094</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="і">
+      <created>1608144521300</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1608144521300</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

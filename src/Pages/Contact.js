@@ -1,7 +1,28 @@
 import React, {Component} from 'react';
 import './contact.css'
+import {UserService} from "../services/UserService";
 
 class Contact extends Component {
+
+
+
+    myForm = React.createRef();
+
+
+
+    send = (e)=>{
+        e.preventDefault();
+        let in1 = this.myForm.current[0].value;
+        let in2 = this.myForm.current[1].value;
+        let in3 = this.myForm.current[2].value;
+
+        console.log('in1:' + in1)
+        console.log('in2:' + in2)
+        console.log('in3:' + in3)
+    }
+
+
+
     render() {
         return (
             <div>
@@ -26,16 +47,19 @@ class Contact extends Component {
                             </div>
                         </div>
                         <div className={'flex-center'}>
-                            <p className={'title-letter'}>Остались вопросы? </p>
-                            <p className={'classic-letter'}>Мы обязательно свяжемся с вами в течение двух рабочих дней</p>
-                            <div className={'flex-center-inside'}>
+                            <div className={'title-text-form'}>
+                                <p className={'title-letter'}>Остались вопросы? </p>
+                                <p className={'classic-letter'}>Мы обязательно свяжемся с вами в течение двух рабочих
+                                    дней</p>
+                            </div>
+                            <form className={'form'} action={'/saveData'} onSubmit={this.send} ref={this.myForm}>
                                 <input className={'in1'} placeholder={'Ваше имя'}/>
                                 <input className={'in2'} placeholder={'Ваш e-mail'}/>
-                            </div>
-                            <input className={'in3'} placeholder={'Что вас интересует?'}/>
-                            <button className={'btn-send'}>
-                                <div className={'btn-letter'}>Отправить</div>
-                            </button>
+                                <input className={'in3'} placeholder={'Что вас интересует?'}/><br/>
+                                <button className={'btn-send'}>
+                                    <div className={'btn-letter'}>Отправить</div>
+                                </button>
+                            </form>
                         </div>
                         <div className={'flex-right'}>
                             <div className={'facebook-img'}></div>
@@ -45,6 +69,7 @@ class Contact extends Component {
                     </div>
                 </div>
             </div>
+
         );
     }
 }

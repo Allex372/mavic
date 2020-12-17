@@ -53,18 +53,28 @@
     height: 100%;
 }
 
-.flex-center-inside{
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-
+/*.flex-center-inside{*/
+/*    display: flex;*/
+/*    justify-content: space-around;*/
+/*    flex-direction: row;*/
+/*}*/
+.title-text-form{
+    margin-left: 10px;
 }
+
 .flex-right{
     display: flex;
     justify-content: space-around;
     flex-direction: column;
 
 }
+.form{
+    width: 700px;
+    height: 600px;
+    padding: 10px;
+}
+
+
 
 .facebook-img{
     background-image: url(../img/фейсбук.png);
@@ -121,6 +131,7 @@
     height: 46px;
     left: 420px;
     top: 329px;
+    padding-right: 10px;
 
     color: #FFFFFF;
     background: rgba(0, 0, 0, 0.5);
@@ -143,6 +154,9 @@
     left: 420px;
     top: 385px;
     color: #FFFFFF;
+    margin-top: 10px;
+    padding-right: 10px;
+
 
     background: rgba(0, 0, 0, 0.5);
     opacity: 0.95;
@@ -153,6 +167,9 @@
     height: 34px;
     left: 420px;
     top: 549px;
+    margin-top: 10px;
+
+
 
     /* Brand - brighter */
 
