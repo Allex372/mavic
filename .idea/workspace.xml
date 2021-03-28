@@ -4,8 +4,8 @@
     <list default="true" id="5c41233d-46d3-4a90-a6c3-aae5c02d9ee0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Contact.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/contact.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Header/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Header/header.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +38,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../react_practice2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -83,7 +83,14 @@
       <workItem from="1608101436032" duration="19828000" />
       <workItem from="1608123258713" duration="1153000" />
       <workItem from="1608135928425" duration="5838000" />
-      <workItem from="1608197358490" duration="3097000" />
+      <workItem from="1608197358490" duration="4319000" />
+      <workItem from="1609580587641" duration="1143000" />
+      <workItem from="1610109836896" duration="132000" />
+      <workItem from="1610110083457" duration="120000" />
+      <workItem from="1611084221709" duration="145000" />
+      <workItem from="1611139577042" duration="2461000" />
+      <workItem from="1613401425963" duration="3175000" />
+      <workItem from="1616856677550" duration="1334000" />
     </task>
     <task id="LOCAL-00001" summary="sdaf">
       <created>1607450827103</created>
@@ -183,7 +190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608144521300</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="і">
+      <created>1608200502896</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1608200502896</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
